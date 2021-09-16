@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+		<meta charset="UTF-8">
+		<title>로그인</title>
+  </head>
+  <body>
+	<form method="GET" action="#">  <!-- form마다 서버에게 각각 전달할 수 있다. /action : 연결할 서버의 주소-->
+    <fieldset>
+    	<label>아이디: <input type="text" id="user_id" size="10" name="id" placeholder="아이디를 입력하세요" required value="junil"></label>
+      <label>비밀번호: <input type="password" id="user_pw" size="10" name="pwd" placeholder="비밀번호" autofocus readonly></label>
+      <input type="submit" value="로그인">  <!-- submit 버튼 서버에게 값을 전달 위의 name의 변수명으로 넘어간다.-->
+      
+    </fieldset>
+  </form>
+
+  <form method="POST" action="#"> <!-- form마다 서버에게 각각 전달할 수 있다.-->
+    <label for="test_id">테스트아이디</label>
+    <input type="text" id="test_id" placeholder="아이디">
+    <input type="submit" value="전달">
+
+  </form>
+
+  <input type="search" name="" id="">
+  <input type="url" name="" id="">
+  <input type="email" name="" id="">
+  <input type="tel" name="" id="">
+
+
+  </body>
+</html>
+
+<!-- get방식으로 하면 주소창에 다 뜨기 때문에 POST방식으로 해야 로그인같은 경우에는 
+보안이 지켜진다.-->
+<!--  POST는 서버가 연결되어야지만 확인이 가능하다.-->
+<!-- radio는 name이 같아야 한다.-->
