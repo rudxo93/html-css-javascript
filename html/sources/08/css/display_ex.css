@@ -9,7 +9,7 @@ body{
     padding: 10px 10px 10px 10px;
     border: 5px solid black;
     padding: 10px;
-    width: 1000px;
+    width: 100px;
     height: 100px;
     background : blue;
 }
@@ -23,7 +23,7 @@ body{
     left: 100px;
     width: 600px;
     height: 600px;
-    background : red;
+    background : pink;
 }
 
 .box3{
@@ -40,13 +40,20 @@ body{
 
 .box4{
     
-    position: fixed;
+    position: absolute;
     top: 30px;
     right: 50px;
 
     width: 100px;
     height: 100px;
     background: cornsilk;
+}
+
+.box5{
+    position: fixed;
+    top: 150px;
+    left: 300px;
+
 }
 
 span{
