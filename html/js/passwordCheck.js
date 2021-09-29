@@ -1,10 +1,9 @@
 const idText = document.querySelector('#id');
-const passwordTest = document.querySelector('#password');
-passwordTest.addEventListener('focusout', ) = () => {
-    let Password_flag = checkPassword(idText.value, passwordTest.value);
-    if(Password_flag == true){
-        alert('사용가능한 비밀번호입니다.');
-    }
+const passwordText = document.querySelector('#password');
+passwordText.onblur = () => {
+    checkPassword(idText.value, passwordText.value)
+    setTimeout(20);
+    passwordText.fcous();
 }
 
 function checkPassword(id,password){

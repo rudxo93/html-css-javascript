@@ -9,12 +9,15 @@ header {
     padding: 0px 30px;
 }
 
-header .naver_title {
-
+#naver_title {
+    
 }
 
 header .logo_area {
-    display: flex;
+   display: block;
+}
+
+header .title_logo {
 }
 
 header .title_logo a {
@@ -26,6 +29,10 @@ header .title_logo a span {
     font-weight: bold;
     text-shadow: 1px 1px 2px;
     color: green;
+}
+
+header ,.service_area {
+    display: flex;
 }
 
 header .service_area a {
