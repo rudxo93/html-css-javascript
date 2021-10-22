@@ -1,11 +1,11 @@
-.container{
+.container {
     margin: 0px auto;
     padding-top: 30px;
     width: 1296px;
     box-sizing: border-box;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
@@ -44,7 +44,7 @@ main ul {
     padding: 10px;
 }
 
-.nd_content_ul li pre {
+.nd_content_ul li pre{
     box-sizing: border-box;
     width: 100%;
     height: 600px;
@@ -80,7 +80,9 @@ main ul {
     width: 200px !important;
 }
 
-.nd_footer_pre_next ul a {
-    width: 100%;
+.nd_footer_pre_next ul a{
+    margin: 0px auto;
+    width: 500px;
     text-align: center;
 }
+

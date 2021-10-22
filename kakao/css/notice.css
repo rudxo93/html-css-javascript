@@ -1,4 +1,4 @@
-.container{
+.container {
     margin: 0px auto;
     padding-top: 30px;
     width: 1296px;
@@ -13,7 +13,7 @@ main {
     align-items: center;
 }
 
-main ul {
+main ul{
     display: flex;
     margin: 0px;
     padding: 0px;
@@ -28,7 +28,7 @@ main a {
     color: black;
 }
 
-.notice_header ul {
+.notice_header ul{
     border-bottom: 5px solid steelblue;
 }
 
@@ -37,7 +37,7 @@ main a {
 }
 
 .notice_main ul:hover {
-    background-color: rgb(250, 250, 250);
+    background: rgb(250, 250, 250);
 }
 
 .notice_num {
