@@ -10,17 +10,21 @@
 
 <body>
     <script>
-        var jData = '{"user_name":"김준일", "user_phone":"01099881916"}';
-        // JSON.parse -> JSON을 객체로 바꿔준다.
+        /*
+        JSON을 다루는데 2가지 함수만 알면된다.
+        1. JSON.parse -> JSON을 객체로 바꿔준다.
+        */
+        var jData = '{"user_name":"김일", "user_phone":"01012345678"}';
+        
         var obj = JSON.parse(jData);
-
         alert(obj.user_name);
-        /////////////////////////////////////////////////////////////////////////////////////////
+        
+        // 2. JSON.stringify -> 문자 또는 데이터, 객체들을 JSON형태로 바꿔준다.
         var objTest = {
-        name:'김준일님',
+            name:'김일',
             phone:'01012345678'
         }
-        // JSON.stringify -> 문자 또는 데이터, 객체들을 JSON형태로 바꿔준다.
+        
         var json = JSON.stringify(objTest);
         alert(json);
     </script>
